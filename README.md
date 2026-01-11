@@ -10,7 +10,8 @@ The corresponding **ground-truth target locations (x, y)** are provided separate
 
 Each scenario includes an independent set of CSI measurements and location labels to facilitate scenario-wise training and evaluation.
 
-A. Step-by-Step Architecture Description 
+## A. Step-by-Step Architecture Description 
+
 Step 1. CSI Phase Preprocessing
 
 This module implements a three-step CSI phase preprocessing pipeline:
