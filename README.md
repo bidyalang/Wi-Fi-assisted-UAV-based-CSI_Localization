@@ -1,5 +1,15 @@
 # Wi-Fi-assisted-UAV-based-CSI_Localization
 A Wi-Fi–assisted UAV-based CSI localization framework for accurate node positioning in complex and dynamic environments.
+## Dataset Description
+The raw dataset folder consists of complex Channel State Information captured from Wi-Fi links, which is decomposed into **amplitude** and **phase** components. These CSI measurements are provided as time-series data across multiple subcarriers.
+
+The corresponding **ground-truth target locations (x, y)** are provided separately for **three experimental scenarios**, namely:
+- Scenario 1: Library Room A
+- Scenario 2: Laboratory Room B
+- Scenario 3: Corridor Environment
+
+Each scenario includes an independent set of CSI measurements and location labels to facilitate scenario-wise training and evaluation.
+
 A. Step-by-Step Architecture Description 
 Step 1. CSI Phase Preprocessing
 
